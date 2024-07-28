@@ -1,32 +1,30 @@
 # MineSweeper
 
-# Mayın Tarlası Oyunu
+## Description
+This Java project is a Minesweeper game where the player inputs coordinates to uncover cells. The player loses if they hit a mine, and wins if they uncover all non-mine cells.
 
-## Açıklama
-Bu Java projesi, kullanıcının girdiği koordinatlarla mayına basmasıyla oyunu kaybettiği, hiçbir mayına basmadan mayınsız bütün kutuları açmasıyla da oyunu kazandığı bir Mayın Tarlası oyunu uygulamasını içerir.
+## How to Use
+1. Download or clone this project to your computer.
+2. Ensure you have Java JDK installed on your computer. If not, download and install it from [Oracle's official website](https://www.oracle.com/java/technologies/javase-downloads.html).
+3. Open the project in a Java Integrated Development Environment (IDE).
+4. Open the `MineSweeper.java` file.
+5. Run the `main` method in the `MineSweeper` class to start the game.
+6. When the game starts, you will be prompted to enter a row and column number to open the first cell.
+7. Continue by entering coordinates to open other cells.
+8. You win the game if you uncover all non-mine cells without hitting a mine.
+9. You lose the game if you hit a mine.
 
-## Nasıl Kullanılır
-1. Bu projeyi bilgisayarınıza indirin veya kopyalayın.
-2. Java JDK'nın bilgisayarınıza kurulu olduğundan emin olun. Değilse, [Oracle'nin resmi web sitesinden](https://www.oracle.com/java/technologies/javase-downloads.html) JDK'yi indirip kurun.
-3. Projeyi bir Java IDE'sinde (Integrated Development Environment) açın.
-4. `MineSweeper.java` dosyasını açın.
-5. `MineSweeper` sınıfının içindeki `main` metodunu çalıştırarak oyunu başlatın.
-6. Oyun başladığında, size bir satır ve bir sütun numarası girmeniz istenecektir. Bu, ilk hücreyi açmak için kullanılır.
-7. Ardından, sırayla diğer hücreleri açarak oyunu devam ettirin.
-8. Mayına basmadan tüm boş kutuları açarsanız, oyunu kazanırsınız.
-9. Bir mayına basarsanız, oyunu kaybedersiniz.
-
-## Örnek Oyun
-1. Oyun başladığında, size bir satır ve bir sütun numarası girmeniz istenecektir. Örneğin:
+## Example Game
+1. When the game starts, you will be prompted to enter a row and a column number. For example:
 Enter the row: 2
 Enter the column: 3
 
-2. Ardından, açmak istediğiniz hücrenin satır ve sütun numarasını girin. Örneğin:
+2. Then, enter the row and column number of the cell you want to open next. For example:
 Enter the row: 4
 Enter the column: 2
 
-3. Bu adımları sırayla tekrar ederek oyunu oynayın.
-4. Oyunu kazandığınızda veya kaybettiğinizde ilgili mesaj ekranda görüntülenecektir.
+3. Continue these steps to play the game.
+4. A message will be displayed on the screen when you win or lose the game.
 
-## Abre Süeda Özmen
-Bu Mayın Tarlası oyunu Abre Süeda Özmen tarafından Java programlama dili kullanılarak oluşturulmuştur.
+## Author
+This Minesweeper game was created by Abre Süeda Özmen using the Java programming language.
